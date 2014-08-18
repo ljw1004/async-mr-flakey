@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="Windows_CSharp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Windows_CSharp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ProgressBar x:Name="progress1" HorizontalAlignment="Stretch" Height="20"/>
+        <Button x:Name="button1" Content="Check weather" Click="button1_Click"/>
+        <TextBlock x:Name="label1" FontSize="40"/>
+        <TextBlock x:Name="label2" FontSize="40"/>
+        <TextBlock x:Name="label3" FontSize="40"/>
+        <Image x:Name="image1" Width="200" Height="200" HorizontalAlignment="Left"/>
+        <TextBlock x:Name="label4" FontSize="40"/>
+    </StackPanel>
+</Page>
