@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <id>AsyncMrFlakey</id>
+    <version>1.0.0.0</version>
+    <title>Async Mr Flakey</title>
+    <authors>Lucian Wischik</authors>
+    <owners>Lucian Wischik</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://raw.githubusercontent.com/ljw1004/async-mr-flakey/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ljw1004/async-mr-flakey</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/ljw1004/async-exception-stacktrace/master/AsyncStackTraceEx/AsyncStackTraceEx/AsyncStackTraceEx.png</iconUrl>
+    <description>An easy way to do ad-hoc testing of network failure of your async calls</description>
+    <summary>Await DownloadAsync(url).Flakey()</summary>
+    <tags>async testing network</tags>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" targetFramework="" />
+    </frameworkAssemblies>
+  </metadata>
+</package>

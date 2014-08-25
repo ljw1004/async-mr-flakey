@@ -11,7 +11,7 @@ Public NotInheritable Class MainPage
 
     Sub New()
         InitializeComponent()
-        StartMrFlakey()
+        MrFlakey.Start()
     End Sub
 
     Private Async Sub button1_Click(sender As Object, e As RoutedEventArgs)
