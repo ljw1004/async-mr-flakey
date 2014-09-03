@@ -11,8 +11,8 @@ Imports System.Reflection
 <Assembly: AssemblyTitle("AsyncMrFlakey")> 
 <Assembly: AssemblyDescription("")> 
 <Assembly: AssemblyCompany("")> 
-<Assembly: AssemblyProduct("AsyncMrFlakey")> 
-<Assembly: AssemblyCopyright("Copyright ©  2014")> 
+<Assembly: AssemblyProduct("AsyncMrFlakey")>
+<Assembly: AssemblyCopyright("Copyright © Lucian Wischik 2014")>
 <Assembly: AssemblyTrademark("")> 
 <Assembly: NeutralResourcesLanguage("en")>
 
@@ -27,5 +27,5 @@ Imports System.Reflection
 ' by using the '*' as shown below:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")> 
-<Assembly: AssemblyFileVersion("1.0.0.0")> 
+<Assembly: AssemblyVersion("1.0.0.1")>
+<Assembly: AssemblyFileVersion("1.0.0.1")>

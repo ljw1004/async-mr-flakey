@@ -52,8 +52,8 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework and Windows SDK is automatically included -->
-    <Content Include="AsyncMrFlakey.png" />
-    <Content Include="MrFlakey.cs" />
+    <None Include="AsyncMrFlakey.png" />
+    <None Include="MrFlakey.cs" />
   </ItemGroup>
   <ItemGroup>
     <TargetPlatform Include="WindowsPhoneApp, Version=8.1" />

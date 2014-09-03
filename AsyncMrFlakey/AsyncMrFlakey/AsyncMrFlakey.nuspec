@@ -2,7 +2,7 @@
 <package>
   <metadata>
     <id>AsyncMrFlakey</id>
-    <version>1.0.0.0</version>
+    <version>1.0.0.1</version>
     <title>Async Mr Flakey</title>
     <authors>Lucian Wischik</authors>
     <owners>Lucian Wischik</owners>
@@ -10,11 +10,20 @@
     <licenseUrl>https://raw.githubusercontent.com/ljw1004/async-mr-flakey/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/ljw1004/async-mr-flakey</projectUrl>
     <iconUrl>https://raw.githubusercontent.com/ljw1004/async-mr-flakey/master/AsyncMrFlakey/AsyncMrFlakey/AsyncMrFlakey.png</iconUrl>
-    <description>An easy way to do ad-hoc testing of network failure of your async calls</description>
+    <description>Mr Flakey provides easy way to do ad-hoc testing of network failure of your async calls.
+      
+(1) Add the NuGet package
+
+(2) On any async network call that might fail and you want to test, stick a call to the Flakey extension method. For instance "Await DownloadAsync().Flakey()"
+
+(3) For ad-hoc testing, put a call to MrFlakey.Start() somewhere e.g. in MainPage.xaml construction. To stop using Mr Flakey, remove this call.
+
+This way, every .Flakey() thing you await will give the tester the chance - within the app's UI - to simulate failure of the async operation.
+    </description>
     <summary>Await DownloadAsync(url).Flakey()</summary>
     <tags>async testing network</tags>
     <frameworkAssemblies>
-      <frameworkAssembly assemblyName="System" targetFramework="" />
+      <frameworkAssembly assemblyName="System" targetFramework="portable-win81+wpa81" />
     </frameworkAssemblies>
   </metadata>
 </package>
